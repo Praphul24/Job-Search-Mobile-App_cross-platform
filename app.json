@@ -5,7 +5,7 @@
       "bundler": "metro"
     },
     "name": "jobSearch-react-native-mobile-app",
-    "slug": "jobSearch-react-native-mobile-app",
+    "slug": "jobsearch-react-native-mobile-app",
     "extra": {
       "eas": {
         "projectId": "95e00de3-f4c5-4fe7-85d8-dceba19ba8aa"
@@ -18,7 +18,9 @@
     "updates": {
       "url": "https://u.expo.dev/95e00de3-f4c5-4fe7-85d8-dceba19ba8aa"
     },
-    "android": {},
+    "android": {
+      "package": "com.praphulyadav.jobsearchreactnativemobileapp"
+    },
     "ios": {}
   }
 }
