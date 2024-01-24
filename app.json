@@ -4,7 +4,7 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "jobSearch-react-native-mobile-app",
+    "name": "SearchJob",
     "slug": "jobsearch-react-native-mobile-app",
     "extra": {
       "eas": {
@@ -19,8 +19,11 @@
       "url": "https://u.expo.dev/95e00de3-f4c5-4fe7-85d8-dceba19ba8aa"
     },
     "android": {
-      "package": "com.praphulyadav.jobsearchreactnativemobileapp"
+      "package": "com.praphul.searchjob"
     },
-    "ios": {}
+    "ios": {},
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
